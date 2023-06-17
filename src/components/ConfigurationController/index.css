@@ -1,0 +1,61 @@
+.config-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 25vh;
+  border: 1px solid black;
+  background-color: #475569;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .config-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 20vh;
+    border: 1px solid black;
+    background-color: #475569;
+    padding-left: 20px;
+  }
+}
+
+.input-container {
+  margin-bottom: 13px;
+}
+
+.config-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.label {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .config-heading {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .label {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 10px;
+  }
+}
